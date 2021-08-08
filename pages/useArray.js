@@ -20,3 +20,6 @@ export const useArray = initial => {
 		)
 	};
 };
+export default function array() {
+	return <div>array</div>;
+}
