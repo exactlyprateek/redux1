@@ -13,7 +13,7 @@ export const useArray = initial => {
 			setValue(v => {
 				const t = v;
 
-				console.log(t.splice(index, 1));
+				// console.log(t.splice(index, 1));
 				v = t;
 				return v;
 			})
